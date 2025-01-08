@@ -10,7 +10,7 @@ export default {
         sora: ['Sora', 'sans-serif'],
       },
       colors:{
-        
+        purple: '#9538E2',
       },
     },
   },
