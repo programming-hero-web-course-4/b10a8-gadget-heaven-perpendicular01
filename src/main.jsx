@@ -12,6 +12,9 @@ import Root from './components/Root/Root';
 import DashBoard from './components/DashBoard/DashBoard';
 import Home from './components/Home/Home';
 import ProductDetails from './components/ProductDetails/ProductDetails';
+import CartProvider from './Context/CartProvider/CartProvider';
+import WishListProvider from './Context/WishListProvider/WishListProvider';
+import CostProvider from './Context/CostProvider/CostProvider';
 
 
 const router = createBrowserRouter([
@@ -44,7 +47,14 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />
-    <ToastContainer />
+    <CartProvider>
+      <WishListProvider>
+        <CostProvider>
+          <RouterProvider router={router} />
+          <ToastContainer />
+        </CostProvider>
+      </WishListProvider>
+    </CartProvider>
+
   </StrictMode>,
 )

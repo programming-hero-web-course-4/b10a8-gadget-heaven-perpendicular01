@@ -2,6 +2,7 @@ import { useState } from "react";
 import HomeBanner from "../Banner/HomeBanner";
 import Catagories from "../Catagories/Catagories";
 import Products from "../Products/Products";
+import { Helmet } from "react-helmet";
 
 const Home = () => {
     const [selectedCategory, setSeletctdCategoty] = useState("All Products")
@@ -13,7 +14,10 @@ const Home = () => {
     // console.log(selectedCategory)
 
     return (
+
         <div>
+            <Helmet> <title> Home </title> </Helmet>
+
             <HomeBanner></HomeBanner>
 
             <div className="font-bold text-center text-3xl md:text-4xl mb-16">Explore Cutting-Edge Gadgets</div>

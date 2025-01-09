@@ -1,33 +1,71 @@
 import { useLoaderData } from "react-router-dom";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { AiOutlineHeart } from "react-icons/ai";
+import { ToastContainer, toast, Bounce } from 'react-toastify';
 
 import { list } from "postcss";
-import { useState } from "react";
+import { useContext, useState } from "react";
+import { CartContext } from "../../Context/CartProvider/CartProvider";
+import { WishListContext } from "../../Context/WishListProvider/WishListProvider";
+import { CostContext } from "../../Context/CostProvider/CostProvider";
+import Rating from "../Rating/Rating";
+
 
 const ProductDetails = () => {
+    const { cart, setCart } = useContext(CartContext)
+    const { wishList, setWishList } = useContext(WishListContext)
+    const { cost, setCost } = useContext(CostContext)
 
 
-    const {cart, setCart} = useState();
-    const {wishList, setWishList} = useState();
-    const {cost, setCost}= useState();
-    
+    // from root
     const product = useLoaderData();
-    console.log(product)
-
+    // console.log(product)
     const { product_id, product_title, product_image, category, price, description, Specification,
         availability, rating } = product
 
 
     const handleAddToCart = () => {
+        // console.log(product)
+        setCost(cost + price)
+        setCart([...cart, product])
 
+        toast.success('Product added to Cart', {
+            position: "top-center",
+            autoClose: 3000,
+            theme: "dark",
+            transition: Bounce,
+        });
     }
+
 
     const handleAddToWishList = () => {
+        // console.log(product_id)
 
+
+        if (wishList.some(p => p.product_id === product_id)) {
+            toast.error('Already Added to WistList', {
+                position: "top-center",
+                autoClose: 5000,
+                theme: "dark",
+
+            });
+
+            return;
+        }
+
+        setWishList([...wishList, product])
+
+
+
+        toast.success('Product added to WishList', {
+            position: "top-center",
+            autoClose: 3000,
+            theme: "dark",
+
+        });
     }
 
-    
+
 
 
 
@@ -47,7 +85,7 @@ const ProductDetails = () => {
 
                     <div className="w-[90%] md:w-[65%] md:ml-10 mt-8 md:mt-0">
                         <h2 className="mb-2 md:mb-4 text-3xl lg:text-4xl font-semibold ">{product_title}</h2>
-                        <h2 className="text-base text-gray-600 font-semibold mb-2 md:mb-4">Price: {price}</h2>
+                        <h2 className="text-base text-gray-600 font-semibold mb-2 md:mb-4">Price: ${price}</h2>
 
 
                         {availability ? <span className="px-2 py-1 bg-green-100 text-sm text-green-700 border-[1px] font-semibold rounded-2xl border-green-800 "> In Stock </span>
@@ -64,8 +102,9 @@ const ProductDetails = () => {
 
                         <h2 className="text-black font-bold my-2 md:my-4">Rating</h2>
 
-                        <div>
-
+                        <div className="flex items-center gap-5">
+                            <Rating rating={rating}></Rating>
+                            <div className="text-lg font-medium">{rating}</div>
                         </div>
 
                         <div className="flex items-center gap-4 my-4">
