@@ -11,6 +11,7 @@ const Navbar = () => {
         <li className="hover:font-bold"> <NavLink to='/'> Home </NavLink> </li>
         <li className="hover:font-bold"> <NavLink to="statistics"> Statistics </NavLink></li>
         <li className="hover:font-bold"> <NavLink to="dashboard"> Dashboard </NavLink></li>
+        <li className="hover:font-bold"> <NavLink to="about"> About Us </NavLink></li>
     </>
 
     return (

@@ -15,12 +15,15 @@ import ProductDetails from './components/ProductDetails/ProductDetails';
 import CartProvider from './Context/CartProvider/CartProvider';
 import WishListProvider from './Context/WishListProvider/WishListProvider';
 import CostProvider from './Context/CostProvider/CostProvider';
+import ErrorPage from './components/ErrorPage/ErrorPage';
+import About from './components/AboutUs/About';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: '/',
@@ -41,6 +44,10 @@ const router = createBrowserRouter([
         }
 
       },
+      {
+        path: 'about',
+        element: <About></About>
+      }
     ]
   },
 ]);

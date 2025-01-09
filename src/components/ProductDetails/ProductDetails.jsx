@@ -9,6 +9,7 @@ import { CartContext } from "../../Context/CartProvider/CartProvider";
 import { WishListContext } from "../../Context/WishListProvider/WishListProvider";
 import { CostContext } from "../../Context/CostProvider/CostProvider";
 import Rating from "../Rating/Rating";
+import { Helmet } from "react-helmet";
 
 
 const ProductDetails = () => {
@@ -71,6 +72,9 @@ const ProductDetails = () => {
 
     return (
         <div>
+            <Helmet> 
+                <title> Details </title>
+            </Helmet>
             <div className="bg-purple text-center text-white pb-40">
                 <h3 className="pt-8 text-2xl md:text-3xl lg:text-4xl mb-4 font-bold">Product Details</h3>
                 <p className="w-[50%] mx-auto text-base font-light">Explore the latest gadgets that will take your experience to the next level.
