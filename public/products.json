@@ -1,0 +1,302 @@
+[
+    {
+        "product_id": "1",
+        "product_title": "Laptop Pro 15",
+        "product_image": "https://i.ibb.co.com/VMyS386/laptop-1.jpg",
+        "category": "Laptops",
+        "price": 1200,
+        "description": "Powerful laptop with 15.6-inch display.",
+        "Specification": [
+            "512GB SSD",
+            "16GB RAM",
+            "Intel i7 Processor"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": "2",
+        "product_title": "Fitness Smartwatch",
+        "product_image": "https://i.ibb.co.com/71YfbdN/Watch-1.webp",
+        "category": "Watches",
+        "price": 200,
+        "description": "Budget-friendly smartwatch with fitness tracking.",
+        "Specification": [
+            "Step Counter",
+            "Sleep Tracker",
+            "Water Resistant"
+        ],
+        "availability": true,
+        "rating": 4.2
+    },
+    {
+        "product_id": "3",
+        "product_title": "Phone X1",
+        "product_image": "https://i.ibb.co.com/rph1WJw/Phone-5.png",
+        "category": "Phones",
+        "price": 700,
+        "description": "High-performance phone with 128GB storage.",
+        "Specification": [
+            "128GB Storage",
+            "6GB RAM",
+            "4000mAh Battery"
+        ],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": "4",
+        "product_title": "Gaming Mouse G9",
+        "product_image": "https://i.ibb.co.com/fD7fHs3/mouse-1.jpg",
+        "category": "Accessories",
+        "price": 80,
+        "description": "Ergonomic gaming mouse with RGB lighting.",
+        "Specification": [
+            "Adjustable DPI",
+            "6 Programmable Buttons"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": "5",
+        "product_title": "Wireless Earbuds Pro",
+        "product_image": "https://i.ibb.co.com/qxsggdG/earphone-4.webp",
+        "category": "Earphones",
+        "price": 250,
+        "description": "Compact earbuds with premium sound.",
+        "Specification": [
+            "Noise Cancellation",
+            "Wireless Charging Case"
+        ],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": "6",
+        "product_title": "Gaming Laptop GX",
+        "product_image": "https://i.ibb.co.com/KrfmSV0/laptop-4.jpg",
+        "category": "Laptops",
+        "price": 1400,
+        "description": "Gaming laptop with high refresh rate display.",
+        "Specification": [
+            "1TB SSD",
+            "32GB RAM",
+            "NVIDIA RTX 3070"
+        ],
+        "availability": true,
+        "rating": 4.9
+    },
+    {
+        "product_id": "7",
+        "product_title": "Smartwatch Elite",
+        "product_image": "https://i.ibb.co.com/PQGvXKS/Watch-3.webp",
+        "category": "Watches",
+        "price": 300,
+        "description": "Premium smartwatch with health tracking.",
+        "Specification": [
+            "Heart Rate Monitor",
+            "GPS",
+            "Waterproof"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": "8",
+        "product_title": "Budget Phone Lite",
+        "product_image": "https://i.ibb.co.com/N6bQ8kx/Phone-4.png",
+        "category": "Phones",
+        "price": 550,
+        "description": "Affordable phone with essential features.",
+        "Specification": [
+            "64GB Storage",
+            "4GB RAM",
+            "3500mAh Battery"
+        ],
+        "availability": false,
+        "rating": 4.1
+    },
+    {
+        "product_id": "9",
+        "product_title": "Gaming Headset X",
+        "product_image": "https://i.ibb.co.com/WyGyKHS/earphone-3.png",
+        "category": "Earphones",
+        "price": 100,
+        "description": "Gaming headset with surround sound.",
+        "Specification": [
+            "7.1 Surround Sound",
+            "Comfortable Earcups"
+        ],
+        "availability": true,
+        "rating": 4.4
+    },
+    {
+        "product_id": "10",
+        "product_title": "Laptop Slim 14",
+        "product_image": "https://i.ibb.co.com/dLS5D84/laptop-2.jpg",
+        "category": "Laptops",
+        "price": 950,
+        "description": "Lightweight laptop with excellent performance.",
+        "Specification": [
+            "256GB SSD",
+            "8GB RAM",
+            "Intel i5 Processor"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": "11",
+        "product_title": "Over-Ear Headphones",
+        "product_image": "https://i.ibb.co.com/B6xLwWj/earphone-1.jpg",
+        "category": "Earphones",
+        "price": 300,
+        "description": "Noise-cancelling over-ear headphones.",
+        "Specification": [
+            "Active Noise Cancellation",
+            "30-Hour Battery"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": "12",
+        "product_title": "Gaming Keyboard GK",
+        "product_image": "https://i.ibb.co.com/jhKGJP2/keyboard-1.jpg",
+        "category": "Accessories",
+        "price": 120,
+        "description": "Gaming keyboard with mechanical keys.",
+        "Specification": [
+            "Red Switches",
+            "Programmable Keys"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": "13",
+        "product_title": "Laptop Cooler Stand",
+        "product_image": "https://i.ibb.co.com/583W9h0/cooler-1.jpg",
+        "category": "Accessories",
+        "price": 60,
+        "description": "Portable laptop stand with cooling fans.",
+        "Specification": [
+            "Adjustable Angles",
+            "Silent Fans"
+        ],
+        "availability": true,
+        "rating": 4.3
+    },
+    {
+        "product_id": "14",
+        "product_title": "Phone Z2",
+        "product_image": "https://i.ibb.co.com/c32F1W9/Phone-3.png",
+        "category": "Phones",
+        "price": 850,
+        "description": "Advanced phone with 256GB storage.",
+        "Specification": [
+            "256GB Storage",
+            "8GB RAM",
+            "4500mAh Battery"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+
+    
+
+
+
+    {
+        "product_id": "15",
+        "product_title": "Smartphone Max",
+        "product_image": "https://i.ibb.co.com/M8wpMDM/Phone-2.jpg",
+        "category": "Phones",
+        "price": 750,
+        "description": "Mid-range smartphone with excellent battery life.",
+        "Specification": [
+            "128GB Storage",
+            "6GB RAM",
+            "5000mAh Battery"
+        ],
+        "availability": true,
+        "rating": 4.4
+    },
+    {
+        "product_id": "16",
+        "product_title": "Wireless Charger Pad",
+        "product_image": "https://i.ibb.co.com/BV9hRmr/charger.jpg",
+        "category": "Accessories",
+        "price": 70,
+        "description": "Fast wireless charging pad for multiple devices.",
+        "Specification": [
+            "10W Fast Charging",
+            "Compact Design"
+        ],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": "17",
+        "product_title": "Gaming Laptop Ultra",
+        "product_image": "https://i.ibb.co.com/2vJVzpW/laptop-3.jpg",
+        "category": "Laptops",
+        "price": 1800,
+        "description": "High-end gaming laptop with ultimate performance.",
+        "Specification": [
+            "2TB SSD",
+            "64GB RAM",
+            "NVIDIA RTX 4090"
+        ],
+        "availability": true,
+        "rating": 5.0
+    },
+    {
+        "product_id": "18",
+        "product_title": "Earbuds Lite",
+        "product_image": "https://i.ibb.co.com/bdFkjNq/earphone-2.png",
+        "category": "Earphones",
+        "price": 100,
+        "description": "Affordable earbuds with great sound quality.",
+        "Specification": [
+            "Bluetooth 5.0",
+            "20-Hour Battery"
+        ],
+        "availability": true,
+        "rating": 4.2
+    },
+    
+
+
+    {
+        "product_id": "19",
+        "product_title": "Smartwatch Basic",
+        "product_image": "https://i.ibb.co.com/80hqjhj/Watch-2.webp",
+        "category": "Watches",
+        "price": 150,
+        "description": "Entry-level smartwatch with basic features.",
+        "Specification": [
+            "Step Tracker",
+            "Notifications",
+            "Water Resistant"
+        ],
+        "availability": true,
+        "rating": 4.1
+    },
+    {
+        "product_id": "20",
+        "product_title": "Flagship Phone Y",
+        "product_image": "https://i.ibb.co.com/thzDXy4/Phone-1.jpg",
+        "category": "Phones",
+        "price": 1200,
+        "description": "Flagship smartphone with cutting-edge features.",
+        "Specification": [
+            "512GB Storage",
+            "12GB RAM",
+            "5000mAh Battery"
+        ],
+        "availability": true,
+        "rating": 4.9
+    }
+]

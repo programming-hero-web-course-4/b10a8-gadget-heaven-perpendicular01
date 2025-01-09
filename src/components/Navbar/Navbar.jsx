@@ -14,7 +14,7 @@ const Navbar = () => {
     </>
 
     return (
-        <div className={`${HomePage ? "my-6" : "bg-white"}`}>
+        <div className={`${HomePage ? "pt-6" : "bg-white"}`}>
             <div className={`w-[90%] mx-auto flex justify-between items-center px-10 py-4 rounded-t-xl ${HomePage ? "bg-purple text-white" : ""}`}>
                 <h2 className="text-xl font-bold ">Gadget Heaven</h2>
                 <div className="hidden list-none md:flex gap-10">
